@@ -1,4 +1,4 @@
-* {
+* {outline: 1px solid blue;
     margin: 0%;
 }
 .header-inner {
@@ -60,6 +60,9 @@
 }
 .menu-section {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .menu-section a {
     text-decoration: none;
@@ -144,6 +147,7 @@
 }
 .drinks{
     flex-basis: 20%;
+    
 }
 .drinks-image {
     margin-left:3px;
@@ -162,9 +166,13 @@
 }
 .center-image {
    width: 100%;
-   height:auto;
+   background-image: url('./images/a-1.jpg.crdownload');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:100vh;
 }
 .center-image img {
-    width: 1349px;
-    height:519px;
+    width: 100%;
+    height:50%;
 }
