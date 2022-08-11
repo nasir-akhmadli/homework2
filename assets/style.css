@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.logo-section img {
+  width: 75px;
+  height: 75px;
+  margin-left: 20px;
+  margin-left: 65px;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo-write {
+    font-weight: bolder;
+    font-size:larger;
+    color: black;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+    padding: 20px;
+    background-color: chocolate;
+}
+.nav-links a {
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+    font-size: larger;
+}
+.nav-links a:hover {
+    transform:translateY(2px);
+    color:white;
+}
+.center-write {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 100%;
+    font-size: 65px;
+    margin-top: 25px;
+}
+.center-left {
+    color:green;
+}
+.center-right {
+    color: red;
+}
+.lorem-section {
+    text-align: center;
+    color: darkkhaki;
+}
+.menu-section {
+    display: flex;
+}
+.menu-section a {
+    text-decoration: none;
+    color: #000;
+}
+.main-courses {
+    flex-basis: 20%;
+}
+.courses-info {
+    font-weight: bold;
+    font-size: larger;
+    background-color: chocolate;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.courses-image {
+    margin-left:5px;
+    margin-top:45px;
+}
+.courses-image img:hover {
+    transform:translateY(5px);
+    transition: .10s ease-in;
+}
+.business-lunch {
+    flex: basis 20%;
+}
+.lunch-image img {
+   margin-left:1px;
+   margin-top: 45px;
+
+}
+.lunch-image img:hover{
+    transform:translateY(5px);
+    transition: .10s ease-in;
+}
+.lunch-info {
+    font-weight: bold;
+    font-size: larger;
+    background-color: chocolate;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.sweets {
+    flex-basis: 20%;
+}
+.sweets-info{
+    font-weight: bold;
+    font-size: larger;
+    background-color: chocolate;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.sweets-image {
+    margin-left:5px;
+   margin-top: 45px;
+}
+.sweets-image img:hover {
+    transform:translateY(5px);
+    transition: .10s ease-in;
+}
+.bakery{
+    flex-basis: 20%;
+}
+.bakery-image {
+    margin-left:5px;
+   margin-top: 45px;
+}
+.bakery-image img:hover{
+    transform:translateY(5px);
+    transition: .10s ease-in;
+}
+.bakery-info {
+    font-weight: bold;
+    font-size: larger;
+    background-color: chocolate;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.drinks{
+    flex-basis: 20%;
+}
+.drinks-image {
+    margin-left:3px;
+   margin-top: 45px;
+}
+.drinks-image img:hover {
+    transform:translateY(5px);
+    transition: .10s ease-in;
+}
+.drinks-info{
+    font-weight: bold;
+    font-size: larger;
+    background-color: chocolate;
+    text-align: center;
+    margin-left: 2px;
+}
+.center-image {
+   width: 100%;
+   height:auto;
+}
+.center-image img {
+    width: 1349px;
+    height:519px;
+}
